@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "terraform-state-deepesh"
+    bucket         = "terraform-cicd-8099"
     key            = "global/terraform.tfstate"
     region         = "ap-south-1"
     # use_lockfile   = true  # Enables locking using the default method
@@ -18,3 +18,4 @@ terraform {
 provider "aws" {
   region = var.region
 }
+
