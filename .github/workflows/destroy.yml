@@ -1,7 +1,7 @@
 name: Terraform Destroy Pipeline
 
 on:
-  workflow_dispatch:   # 👈 manual trigger from GitHub Actions
+  workflow_dispatch:
 
 jobs:
   terraform-destroy:
